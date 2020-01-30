@@ -12,16 +12,16 @@ self.__precacheManifest = [
     "url": "/img/github-logo.472d63c7.png"
   },
   {
-    "revision": "556e1043b5ec4b35d7fe",
-    "url": "/css/chunk-0454e5b2.8f104564.css"
-  },
-  {
     "revision": "53c5cb69ad62bed91974",
     "url": "/css/chunk-1ede3098.bff6d527.css"
   },
   {
-    "revision": "53c5cb69ad62bed91974",
-    "url": "/js/chunk-1ede3098.9e99c2f1.js"
+    "revision": "506df8ff4fe724874ca8",
+    "url": "/css/chunk-1fa06a26.7a5c8134.css"
+  },
+  {
+    "revision": "506df8ff4fe724874ca8",
+    "url": "/js/chunk-1fa06a26.847fee9f.js"
   },
   {
     "revision": "f239fd996d94932a0d53",
@@ -112,12 +112,12 @@ self.__precacheManifest = [
     "url": "/img/work_01.dd5c064d.jpg"
   },
   {
-    "revision": "bbf110e7d99c9470a4f2",
-    "url": "/js/app.5484868b.js"
+    "revision": "ac5c10889a2814e7a024",
+    "url": "/js/app.704c582e.js"
   },
   {
-    "revision": "556e1043b5ec4b35d7fe",
-    "url": "/js/chunk-0454e5b2.f54fdc8b.js"
+    "revision": "53c5cb69ad62bed91974",
+    "url": "/js/chunk-1ede3098.9e99c2f1.js"
   },
   {
     "revision": "a11efc27ffbd08c8f4d99a0dd27f9c38",
@@ -220,11 +220,11 @@ self.__precacheManifest = [
     "url": "/img/work_10.b3feb7e8.jpg"
   },
   {
-    "revision": "389484718c3a5c383170472bb53178c0",
+    "revision": "532598d02de313ab2e68f90c4dcf91b1",
     "url": "/index.html"
   },
   {
-    "revision": "bbf110e7d99c9470a4f2",
+    "revision": "ac5c10889a2814e7a024",
     "url": "/css/app.544ddce1.css"
   }
 ];
