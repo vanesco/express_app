@@ -1,13 +1,10 @@
 var mongoose = require('mongoose');
-// mongoose.connect('mongodb+srv://leehyojun:qlalfdldi80!@leehyojun-wpdws.mongodb.net/test');
 
-mongoose.connect('mongodb://leehyojun:qlalfdldi80!@ds311128.mlab.com:11128/heroku_g4lrbwhn');
+mongoose.set('useNewUrlParser', true);
+mongoose.set('useFindAndModify', false);
+mongoose.set('useCreateIndex', true);
 
-
-
-// mongoose.set('useNewUrlParser', true);
-// mongoose.set('useFindAndModify', false);
-// mongoose.set('useCreateIndex', true);
+mongoose.connect(process.env.MONGO_DB);
 
 var db = mongoose.connection;
 
@@ -17,6 +14,3 @@ db.once("open", function () {
 db.on("error", function (err) {
   console.log("DB ERROR : ", err);
 });
-
-
-
