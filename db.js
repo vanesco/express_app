@@ -1,10 +1,10 @@
 var mongoose = require('mongoose');
 
-mongoose.set('useNewUrlParser', true);
-mongoose.set('useFindAndModify', false);
-mongoose.set('useCreateIndex', true);
+// mongoose.set('useNewUrlParser', true);
+// mongoose.set('useFindAndModify', false);
+// mongoose.set('useCreateIndex', true);
 
-mongoose.connect(process.env.MONGO_DB);
+mongoose.connect(process.env.MONGODB_URI);
 
 var db = mongoose.connection;
 
