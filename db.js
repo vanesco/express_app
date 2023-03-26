@@ -4,7 +4,8 @@ var mongoose = require('mongoose');
 // mongoose.set('useFindAndModify', false);
 // mongoose.set('useCreateIndex', true);
 
-mongoose.connect('mongodb+srv://leehyojun:qlalfdldi80!@leehyojun.wpdws.mongodb.net/test');
+// mongoose.connect('mongodb+srv://leehyojun:qlalfdldi80!@leehyojun.wpdws.mongodb.net/test');
+mongoose.connect(process.env.MONGODB_URI);
 
 var db = mongoose.connection;
 
