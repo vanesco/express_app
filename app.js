@@ -6,9 +6,8 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var app = express();
-var db = require('./db');
-var BoardController = require('./boardController');
-const uri = process.env.MONGODB_URI;
+// var db = require('./db');
+// var BoardController = require('./boardController');
 
 app.use(require('connect-history-api-fallback')());
 app.use(logger('dev'));
@@ -16,7 +15,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/boards', BoardController);
+// app.use('/boards', BoardController);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
