@@ -1,16 +1,16 @@
-// var mongoose = require('mongoose');
+var mongoose = require('mongoose');
 
-// // mongoose.set('useNewUrlParser', true);
-// // mongoose.set('useFindAndModify', false);
-// // mongoose.set('useCreateIndex', true);
+// mongoose.set('useNewUrlParser', true);
+// mongoose.set('useFindAndModify', false);
+// mongoose.set('useCreateIndex', true);
 
-// mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect('mongodb+srv://leehyojun:qlalfdldi80!@leehyojun.wpdws.mongodb.net/test');
 
-// var db = mongoose.connection;
+var db = mongoose.connection;
 
-// db.once("open", function () {
-//   console.log("DB connected");
-// });
-// db.on("error", function (err) {
-//   console.log("DB ERROR : ", err);
-// });
+db.once("open", function () {
+  console.log("DB connected");
+});
+db.on("error", function (err) {
+  console.log("DB ERROR : ", err);
+});
