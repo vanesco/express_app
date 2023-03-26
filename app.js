@@ -8,6 +8,7 @@ var logger = require('morgan');
 var app = express();
 var db = require('./db');
 var BoardController = require('./boardController');
+const uri = process.env.MONGODB_URI;
 
 app.use(require('connect-history-api-fallback')());
 app.use(logger('dev'));
